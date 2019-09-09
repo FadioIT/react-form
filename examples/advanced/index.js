@@ -53,11 +53,14 @@ const ContactList = ({ history }) => {
         ))}
       </div>
       <Route path="/advanced/:id">
-        {({
-          match: {
+        {({ match }) => {
+          if (!match) {
+            return null;
+          }
+
+          const {
             params: { id },
-          },
-        }) => {
+          } = match;
           const isNew = id === 'new';
           const contact = contacts[id];
 

@@ -8,10 +8,10 @@
     "start": "yarn build  && serve dist"
   },
   "dependencies": {
-    "@fadioit/react-form": "file:..",
+    "@fadioit/react-form": "0.1.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.9",
+    "react-dom": "^16.9",
     "react-router-dom": "^5.0.1"
   },
   "devDependencies": {
