@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+lib
+esm
+types
+dist
+coverage
+.vscode/*
+.cache
+*.tsbuildinfo
+*.log
