@@ -21,6 +21,7 @@
     "types/**/*.js"
   ],
   "scripts": {
+    "postinstall": "yarn build",
     "prepublish": "yarn build",
     "build": "tsc && tsc -p tsconfig.es6.json",
     "lint": "eslint ./src/**/*.ts ./src/**/*.tsx",
